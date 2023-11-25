@@ -1,0 +1,18 @@
+.app-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.counter-button {
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.counter-value {
+  font-size: 24px;
+}
+
+.clicked-info {
+  font-size: 18px;
+}

@@ -1,0 +1,79 @@
+/* Task.css */
+.task {
+  border: 1px solid rgba(183, 176, 199, 0.724);
+  border-radius: 8px;
+  margin-bottom: 16px;
+  margin-top: 30px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: rgba(182, 175, 198, 0.247);
+  color: #fff;
+}
+
+.task:hover {
+  background-color: rgba(182, 175, 198, 0.397);
+
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-text {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.subtasks {
+  margin-top: 10px;
+}
+
+.add-subtask {
+  display: flex;
+  margin-top: 10px;
+}
+
+.add-subtask input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+.add-subTask-button,
+.edit-button,
+.delete-button, 
+.task button {
+  /* background-color: #dc3546; */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.task button:hover{
+  background-color: #2e754e;
+}
+.delete-button{
+  background-color: #dc354697;
+  margin-left: 18px;
+} 
+.delete-button:hover{
+  background-color: #dc3546 !important;
+} 
+
+.edit-button{
+  background-color: #356adc97;
+
+}
+
+.edit-button:hover{
+  background-color: #356adc !important;
+
+}
+.task.done {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}

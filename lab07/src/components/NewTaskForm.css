@@ -1,0 +1,26 @@
+form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  button {
+    padding: 8px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #cccccc53;
+    background-color: rgba(53, 126, 93, 0.658);
+  }
+  button:hover {
+    background-color: rgb(53, 126, 87);
+  }
+  

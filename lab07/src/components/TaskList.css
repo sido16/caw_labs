@@ -1,0 +1,15 @@
+.task-list {
+  width: 400px;
+  border: 1px solid rgba(183, 176, 199, 0.441);
+  padding: 20px;
+    border-radius: 8px;
+    /* background-color: rgba(101, 86, 135, 0.646); */
+    background: linear-gradient(-20deg, #2b587693 0%, #4e437676 100%);
+  }
+  
+  
+  .task-list h1{
+    color: rgb(246, 255, 240);
+    text-align: center;
+    margin-bottom: 40px;
+  }
